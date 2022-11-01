@@ -1,0 +1,107 @@
+<!--Carly Palmer
+    index.html
+    October 20, 2022
+    -->
+
+    
+    <html lang="en">
+        <head>
+            <title>Pleasure Island</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="../week9MD/css/pleasure.css">
+            <meta name="viewport" content="width-device-width, initial-scale=1">
+        </head>
+        <body>
+        
+            <div id="container">
+                <!--use the header area for this website name or logo-->
+                <header> 
+                    <a href="index.html"><img src="../week9MD/images/pleasurelogo.png" height="175" alt="Pleasure Island logo"></a>
+                    
+                       
+                      
+                      
+                </header>
+  <body>
+
+   
+        
+			<h1><i>where dreams become a reality</i></h1>
+        <nav class="navbar">
+            <a href="#" class="nav-branding"></a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+           <!-- <li><a href="html/products.html">Products</a></li> -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../week9MD/visit.html" class="nav-link">Visit</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/location.html" class="nav-link">Location</a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
+   
+   
+   
+   
+    <script type="text/javascript">
+        var hamburger = document.querySelector('.hamburger');
+        var menu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', function(){
+
+            if(menu.classList.contains('active')){
+                menu.classList.remove('active');
+            } else {
+                menu.classList.add('active');
+            }
+        });
+
+        console.log(hamburger);
+</script>
+
+    <main>    
+        <div id="contact">
+            <h2>Contact us</h2>
+            <h4 class=" mobile tel-link"><a href="tel:5555555555">555-555-5555</a></h4>
+            <h4 class="tablet-desktop tel-num">(555) 555-5555</h4>
+            <h4><a href="mailto:cmpalmer@my.waketech.edu" class="contact-email-link">cmpalmer@my.waketech.edu</a></h4>
+            <h4>1275 channel center street </h4>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8519291124635!2d-71.05362848529724!3d42.34568017918783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7dc2b67e7b%3A0x36ec93427cd9c5f1!2sChannel%20Center%20St%2C%20Boston%2C%20MA%2002210!5e0!3m2!1sen!2sus!4v1644078537402!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" class="map"></iframe>
+        </div>
+       <!-- <p><img src="../images/woman1.jpeg" alt="photo of woman riding in middle of road from the back wearing sports bra and shorts"></p>
+        </div>-->
+
+    </main>
+
+    
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; Copyright 2022. All Rights Reserved.</p>
+            </div>
+
+        <div class="social">
+
+            <a href="https://en.facebookbrand.com/#_=_" target="_blank"><img src="images/fb.png" alt="blue and white facebook logo"></a>
+
+            <a href="https://brand.twitter.com/logo" target="_blank"><img src="images/twitter.png" alt="blue and white twitter logo"> </a>
+        </div>
+    </footer>
+    
+    </div>
+    </body>
+    </html>

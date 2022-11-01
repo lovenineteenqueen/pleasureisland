@@ -1,0 +1,130 @@
+<!--Carly Palmer
+    index.html
+    October 20, 2022
+    -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Pleasure Island</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="../week9MD/css/pleasure.css">
+            <meta name="viewport" content="width-device-width, initial-scale=1">
+        </head>
+        
+        
+            <div id="container">
+                <!--use the header area for this website name or logo-->
+                <header> 
+                    <a href="index.html"><img src="../week9MD/images/pleasurelogo.png" height="175" alt="Pleasure Island logo"></a>
+                    
+                       
+                      
+                      
+                </header>
+  <body>
+
+   
+        
+			<h1><i>where dreams become a reality</i></h1>
+        <nav class="navbar">
+            <a href="#" class="nav-branding"></a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+           <!-- <li><a href="html/products.html">Products</a></li> -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../week9MD/visit.html" class="nav-link">Visit</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/location.html" class="nav-link">Location</a>
+                </li>
+            </ul>
+            
+        </nav>
+   
+   
+   
+   
+   
+    <script type="text/javascript">
+        var hamburger = document.querySelector('.hamburger');
+        var menu = document.querySelector('.nav-menu');
+        hamburger.addEventListener('click', function(){
+
+            if(menu.classList.contains('active')){
+                menu.classList.remove('active');
+            } else {
+                menu.classList.add('active');
+            }
+        });
+
+        console.log(hamburger);
+</script>
+
+
+<div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="../week9MD/images/kite.jpg" alt="picture of kite" style="width:75%">
+        <div class="container">
+          <h2>Event Calender</h2>
+          <p class="title">November 1, 2022</p>
+          <p>Help us kick off the festival weekend by joining us on November 4th for a Night with Kites! Watch our Cape Fear Kite Flyers light up the sky with their illuminated kites! <i>"Fun for all"</i> </p>
+          
+          <p><button class="button">Buy Tickets</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        <img src="../week9MD/images/signup.jpg" alt="September 2022 Event " style="width:100%">
+        <div class="container">
+          <h2>Sign up for our Newsletter</h2>
+          <p class="title">Don't miss out!</p>
+          <p> </p>
+        
+          <p><button class="button">Sign up</button></p>
+        </div>
+      </div>
+    </div>
+  
+    
+      </div>
+    </div>
+  
+
+    
+    </body>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; Copyright 2022. All Rights Reserved.</p>
+            </div>
+
+        <div class="social">
+
+            <a href="https://en.facebookbrand.com/#_=_" target="_blank"><img src="images/fb.png" alt="blue and white facebook logo"></a>
+
+            <a href="https://brand.twitter.com/logo" target="_blank"><img src="images/twitter.png" alt="blue and white twitter logo"> </a>
+        </div>
+    </footer>
+    
+    </html>
+
+
+
+
+
+  

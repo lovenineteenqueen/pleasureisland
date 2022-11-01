@@ -1,0 +1,150 @@
+<!--Carly Palmer
+    contact.html
+     October, 2022
+    -->
+    <html lang="en">
+        <head>
+            <title>Pleasure Island</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="../week9MD/css/pleasure.css">
+            <meta name="viewport" content="width-device-width, initial-scale=1">
+        </head>
+        <header> 
+            <a href="index.html"><img src="../week9MD/images/pleasurelogo.png" height="175" alt="Pleasure Island logo"></a>
+               
+              
+              
+        </header>
+        <body>
+            <nav class="navbar">
+                <a href="#" class="nav-branding"></a>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+    
+               <!-- <li><a href="html/products.html">Products</a></li> -->
+               <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="../week9MD/visit.html" class="nav-link">Visit</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="../week9MD/location.html" class="nav-link">Location</a>
+                </li>
+            </ul>
+                
+            </nav>
+        </header>
+       
+       
+       
+       
+        <script type="text/javascript">
+            var hamburger = document.querySelector('.hamburger');
+            var menu = document.querySelector('.nav-menu');
+            hamburger.addEventListener('click', function(){
+    
+                if(menu.classList.contains('active')){
+                    menu.classList.remove('active');
+                } else {
+                    menu.classList.add('active');
+                }
+            });
+    
+            console.log(hamburger);
+    </script>
+        
+            <div id="container">
+                <!--use the header area for this website name or logo-->
+              
+                <h1>We want to
+                    ​hear from you!</h1>
+
+                    <main>
+                        <div id="form">
+                            <h2>Complete the form below to join the Pleasure Island Community</h2>
+                
+                            <form class="form-grid">
+                                <!--Start Form-->
+                
+                                <fieldset>
+                                    <legend>Membership Information</legend>
+                                    <label for="fName">First Name:</label>
+                                    <input type="text" name="fName" id="fName" placeholder="First Name" required>
+                
+                                    <label for="lName">Last Name:</label>
+                                    <input type="text" name="lName" id="lName" placeholder="Last Name" required>
+                
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" placeholder="Email" required>
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                                </fieldset>
+                
+                                <fieldset>
+                                    <legend>Additional Information</legend>
+                                    <p>I would like more information about:</p>
+                
+                                    <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Restaurants">Restaurants</label>
+                
+                                    <label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Activities">Activities</label>
+                
+                                    <label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Hotels">Hotels</label>
+                                </fieldset>
+                
+                                <fieldset>
+                                    <legend>Referral Source</legend>
+                                    <label for="reference">How did you find us?</label>
+                                    <select name="reference" id="reference">
+                                        <option value="ad">Advertisement</option>
+                                        <option value="friend">Friend</option>
+                                        <option value="google">Google</option>
+                                        <option value="social">Social Media</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                
+                                    <label for="questions">Questions?</label>
+                                    <textarea id="questions" name="questions" placeholder="Ask Here!" rows="5" cols="35"></textarea>
+                                </fieldset>
+                
+                                <input type="submit" id="submit" value="Submit" class="btn">
+                             </form>
+                        </div>
+                        
+                          <!--would u use input type as submit to return back to ur homepage? How do you link a button to a page?-->
+                          <input type="submit" id="Home" value="Home" class="btn">
+                
+                        <!--<p><img src="../images/woman1.jpeg" alt="photo of woman riding in middle of road from the back wearing sports bra and shorts"></p>
+                        </div>-->
+                
+                         <!-- Hero Image 
+                         <div id="hero" class="hero">
+                            <img src="../images/heroimage.jpeg" alt="woman sitting beside path with bike next to her with her eyes closed smiling">
+                        </div>-->
+                
+                    </main>
+                    <!-- Use the footer area to add webpage footer content-->
+                    
+                    <footer>
+                        <div class="copyright">
+                            <p>&copy; Copyright 2022. All Rights Reserved.</p>
+                            </div>
+                
+                        <div class="social">
+                
+                            <a href="https://en.facebookbrand.com/#_=_" target="_blank"><img src="../images/fb.png" alt="blue and white facebook logo"></a>
+                
+                            <a href="https://brand.twitter.com/logo" target="_blank"><img src="../images/twitter.png" alt="blue and white twitter logo"> </a>
+                        </div>
+                    </footer>
+                    
+                    </div>
+                </body>
+                </html>
